@@ -263,33 +263,9 @@ The maximum average number of steps during weekdays is higher than the weekend, 
 
 
 ```r
-## Reset Warning Options
-options(warn = oldw)
-
 ## Reset default plotting parameters
 par(parameters)
-```
 
-```
-## Warning in par(parameters): graphical parameter "cin" cannot be set
-```
-
-```
-## Warning in par(parameters): graphical parameter "cra" cannot be set
-```
-
-```
-## Warning in par(parameters): graphical parameter "csi" cannot be set
-```
-
-```
-## Warning in par(parameters): graphical parameter "cxy" cannot be set
-```
-
-```
-## Warning in par(parameters): graphical parameter "din" cannot be set
-```
-
-```
-## Warning in par(parameters): graphical parameter "page" cannot be set
+## Reset Warning Options
+options(warn = oldw)
 ```

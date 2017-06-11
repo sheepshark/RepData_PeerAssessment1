@@ -193,9 +193,9 @@ avgWE[which.max(avgWE$steps),]
 The maximum average number of steps during weekdays is higher than the weekend, but there seems to be more activity in general during the weekend. However, on both weekdays and weekends, the peak activity takes place between 8:30 and 9:30 in the morning. 
 
 ```{r}
-## Reset Warning Options
-options(warn = oldw)
-
 ## Reset default plotting parameters
 par(parameters)
+
+## Reset Warning Options
+options(warn = oldw)
 ```
